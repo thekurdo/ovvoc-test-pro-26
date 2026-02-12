@@ -1,0 +1,12 @@
+{
+  "name": "ovvoc-test-pro-26",
+  "version": "1.0.0",
+  "description": "REST API with complex ESLint 8 config",
+  "scripts": {
+    "lint": "eslint src/ --ext .js",
+    "test": "node test/lint-config.test.js"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0"
+  }
+}
