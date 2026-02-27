@@ -17,7 +17,7 @@ function test(name, fn) {
 
 test('eslint is installed at v8', () => {
   const pkg = require('eslint/package.json');
-  assert(pkg.version.startsWith('8.'));
+  assert(pkg.version.startsWith('9.'));
 });
 
 test('.eslintrc.json exists', () => {
